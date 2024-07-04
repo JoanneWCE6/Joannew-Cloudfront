@@ -10,7 +10,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
 
   enabled             = true
   is_ipv6_enabled     = true
-  comment             = "TF - Cloudfront - Delfrinando"
+  comment             = "Joannew-Cloudfront"
   default_root_object = "home.html"
 
   default_cache_behavior {
